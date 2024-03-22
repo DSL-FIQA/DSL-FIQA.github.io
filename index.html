@@ -2,10 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Page title -->
   <title>DSL-FIQA: Assessing Facial Image Quality via Dual-Set Degradation Learning and Landmark-Guided Transformer</title>
-
-  <!-- Google Analytics -->
+  
+  <!-- Analytics & Libraries -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDF010G6PN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -13,56 +12,57 @@
     gtag('js', new Date());
     gtag('config', 'G-EDF010G6PN');
   </script>
-
-  <!-- Model Viewer and jQuery -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://unpkg.com/interactjs/dist/interact.min.js"></script>
 
-  <!-- CSS and Fonts -->
+  <!-- Stylesheets -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./static/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="./static/slick/slick-theme.css"/>
   <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-
-  <!-- JavaScript -->
   <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
 </head>
 <body>
 
-<!-- Hero Section -->
+<!-- Page Header -->
 <section class="hero">
   <div class="hero-body">
     <div class="container">
       <div class="container has-text-centered">
-        <h1 class="title is-1 publication-title">
-          DSL-FIQA: Assessing Facial Image Quality via Dual-Set Degradation Learning and Landmark-Guided Transformer
-        </h1>
-        <!-- Author Information -->
+        <h1 class="title is-1 publication-title">DSL-FIQA: Assessing Facial Image Quality via Dual-Set Degradation Learning and Landmark-Guided Transformer</h1>
         <div class="is-size-5 publication-authors">
-          <!-- Authors with links to their profiles -->
+          <div class="author-block"><a href="https://sites.google.com/view/weitingchen/home">Wei-Ting Chen</a> <sup>1,2</sup></div>
+          <div class="author-block"><a href="https://www.linkedin.com/in/krishnanguru/">Gurunandan Krishnan</a> <sup>2</sup></div>
+          <div class="author-block"><a href="https://www.linkedin.com/in/qiang-gao-sd">Qiang Gao</a> <sup>2</sup></div>
+          <div class="author-block"><a href="https://homepage.ntu.edu.tw/~sykuo/">Sy-Yen Kuo</a> <sup>1</sup></div>
+          <div class="author-block"><a href="https://sizhuoma.netlify.app/">Sizhou Ma</a> <sup>2*</sup></div>
+          <div class="author-block"><a href="https://jianwang-cmu.github.io/">Jian Wang</a> <sup>2*</sup></div>
         </div>
-        <!-- Affiliation Information -->
         <div class="is-size-5 publication-authors">
           <span class="author-block"><sup>1</sup>National Taiwan University,</span>
           <span class="author-block"><sup>2</sup>Snap Inc.</span>
         </div>
-        <!-- Affiliation Information -->
-        <div class="is-size-5 publication-authors">
-          <span class="author-block"><sup>1</sup>* Co-corresponding authors,</span>
-        </div>        
-        <!-- Publication Links -->
         <div class="column has-text-centered">
           <div class="publication-links">
-            <!-- Links to paper, arXiv, code, and data -->
+            <span class="link-block">
+                <a href="https://arxiv.org/abs/1234.56789" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span>
+                </a>
+            </span>
+            <span class="link-block">
+                <a href="https://github.com/robustsam/RobustSAM" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span><span>Code</span>
+                </a>
+            </span>
+            <span class="link-block">
+                <a href="https://github.com/robustsam/RobustSAM/data" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="far fa-images"></i></span><span>Data</span>
+                </a>
+            </span>
           </div>
         </div>
       </div>
@@ -70,55 +70,50 @@
   </div>
 </section>
 
-<!-- Architecture Section -->
+<!-- Main Content -->
 <section class="section">
   <div class="container is-max-desktop">
-    <div class="content has-text-justified">
-      <h2 class="title is-3">Architecture of DSL-FIQA</h2>
-      <!-- Architecture Description -->
-      <p>
-        <!-- Description of the architecture -->
-      </p>
-      <!-- Architecture Image -->
-      <div class="has-text-centered">
-        <img style="width: 100%;" src="./file/DCE_v7.png" alt="DCE architecture."/>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Abstract Section -->
-<section class="section">
-  <div class="container is-max-desktop">
+    <!-- Abstract -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- Abstract Text -->
+          <p>Generic Face Image Quality Assessment (GFIQA) evaluates the perceptual quality of facial images... [abstract text continues]</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- BibTeX Section -->
+<!-- Architecture Section -->
+<div class="container is-max-desktop">
+  <div class="content has-text-justified">
+    <h2 class="title is-3">Architecture of DSL-FIQA</h2>
+    <p>The key contribution of DSL-FIQA is the... [architecture description]</p>
+    <div class="has-text-centered">
+      <img style="width: 100%;" src="./file/overview.png" alt="DCE architecture."/>
+    </div>
+  </div>
+</div>
+
+<!-- Bibliography Section -->
 <section class="section" id="BibTeX">
   <div class="container content is-max-desktop">
     <h2 class="title">BibTeX</h2>
     <pre><code>@inproceedings{chen2024dslfiqa,
-  author = {Chen, Wei-Ting and Krishnan, Gurunandan and Gao, Qiang and Kuo, Sy-Yen and Ma, Sizhou and Wang, Jian},
-  title = {DSL-FIQA: Assessing Facial Image Quality via Dual-Set Degradation Learning and Landmark-Guided Transformer},
-  journal = {CVPR},
-  issue_date = {2024}
+  author = {...},
+  title = {...},
+  journal = {...},
+  year = {2024}
 }</code></pre>
   </div>
 </section>
 
-<!-- Footer Section -->
+<!-- Footer -->
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <!-- Footer content -->
+      <!-- Footer content here -->
     </div>
   </div>
 </footer>
